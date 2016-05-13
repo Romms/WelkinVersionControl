@@ -31,7 +31,7 @@ if (!$copyExists) {
     #New-Item "The Welkin Suite $currentVersion" -type directory
     New-Item "The Welkin Suite $currentVersion\The Welkin Suite" -type directory
     # Copy to new directory
-    Copy-Item "The Welkin Suite\The Welkin Suite\*" "The Welkin Suite $currentVersion\The Welkin Suite\"
+    Copy-Item "The Welkin Suite\The Welkin Suite\*" "The Welkin Suite $currentVersion\The Welkin Suite\" -Recurse
     
     # Create shortcut on desktop
     $desktopPath = [Environment]::GetFolderPath("CommonDesktopDirectory")
