@@ -5,7 +5,8 @@ WelkinVersionControl.ps1 makes copy of installed The Welkin Suite version to Pro
 Please **run WelkinVersionControl.ps1 as administrator**
 or previously change Execution Policy in PowerShell:
 
-`PowerShell> Set-ExecutionPolicy Unrestricted -Force`
+<!-- language: PowerShell -->
+    PowerShell> Set-ExecutionPolicy Unrestricted -Force
 
 
 #### Recommend using:
